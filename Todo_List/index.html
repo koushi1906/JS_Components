@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Todo List</h2>
+    <section id="todo-list-container">
+      <form id="todo-task-form">
+        <input
+          type="text"
+          placeholder="what needs to be done?"
+          id="todo-task-input"
+          aria-label="Enter your todo task"
+          name="title"
+          value=""
+        />
+
+        <button type="submit" aria-label="Submit">+</button>
+      </form>
+
+      <ul id="todo-list"></ul>
+    </section>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
